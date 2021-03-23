@@ -1,28 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ca8a5-fa14-4d83-8ab7-9d414d68f41b" name="Default Changelist" comment="" />
+    <list default="true" id="960ca8a5-fa14-4d83-8ab7-9d414d68f41b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1hoSytraXy2CsddjD9nOpPHG9Sx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build varinfo.go">
+    <configuration name="go build fmtprint.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LearnGoProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/fmt/fmtprint.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build varinfo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LearnGoProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/varinfo/varinfo.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build varinfo.go" />
+        <item itemvalue="Go Build.go build fmtprint.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,18 +94,33 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="709" y="331" width="1036" height="362" key="#Notifications" timestamp="1600676256734">
+    <state width="1995" height="216" key="GridCell.Tab.0.bottom" timestamp="1616478849476">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="709" y="331" width="1036" height="362" key="#Notifications/0.0.2048.1112@0.0.2048.1112" timestamp="1600676256734" />
-    <state x="773" y="420" key="#Updates" timestamp="1600676277101">
+    <state width="1995" height="216" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1616478849476" />
+    <state width="1995" height="216" key="GridCell.Tab.0.center" timestamp="1616478849476">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="773" y="420" key="#Updates/0.0.2048.1112@0.0.2048.1112" timestamp="1600676277101" />
-    <state x="911" y="416" key="EnvironmentVariablesDialog" timestamp="1600917337987">
+    <state width="1995" height="216" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1616478849476" />
+    <state width="1995" height="216" key="GridCell.Tab.0.left" timestamp="1616478849476">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="911" y="416" key="EnvironmentVariablesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1600917337987" />
+    <state width="1995" height="216" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1616478849476" />
+    <state width="1995" height="216" key="GridCell.Tab.0.right" timestamp="1616478849476">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="216" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1616478849476" />
   </component>
 </project>
