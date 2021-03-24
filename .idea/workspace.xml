@@ -25,13 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960ca8a5-fa14-4d83-8ab7-9d414d68f41b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LearnGoProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="960ca8a5-fa14-4d83-8ab7-9d414d68f41b" name="Default Changelist" comment="add: func">
+      <change afterPath="$PROJECT_DIR$/array_slice/arr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/control/ifelse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/defer_function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/lambda_function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/simple_function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stringusage/stringusage.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature-trainer-version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/varinfo/varinfo.go" beforeDir="false" afterPath="$PROJECT_DIR$/varinfo/varinfo.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/bmbbms/go-learn.git" />
+      </set>
+    </option>
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -60,35 +70,68 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Go Build.go build varinfo.go">
-    <configuration name="go build fmtprint.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/bmbbms/gowall/function (2)">
+    <configuration name="go build github.com/bmbbms/gowall/array_slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LearnGoProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/fmt/fmtprint.go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/array_slice/arr.go" />
+      <package value="github.com/bmbbms/gowall/array_slice" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build varinfo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/bmbbms/gowall/function (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LearnGoProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/function/defer_function.go" />
+      <package value="github.com/bmbbms/gowall/function" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/bmbbms/gowall/function (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LearnGoProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/function/lambda_function.go" />
+      <package value="github.com/bmbbms/gowall/function" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/bmbbms/gowall/function" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LearnGoProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/function/simple_function.go" />
+      <package value="github.com/bmbbms/gowall/function" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ifelse.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LearnGoProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/varinfo/varinfo.go" />
+      <filePath value="$PROJECT_DIR$/control/ifelse.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build varinfo.go" />
-        <item itemvalue="Go Build.go build fmtprint.go" />
+        <item itemvalue="Go Build.go build github.com/bmbbms/gowall/function (2)" />
+        <item itemvalue="Go Build.go build github.com/bmbbms/gowall/array_slice" />
+        <item itemvalue="Go Build.go build github.com/bmbbms/gowall/function (1)" />
+        <item itemvalue="Go Build.go build github.com/bmbbms/gowall/function" />
+        <item itemvalue="Go Build.go build ifelse.go" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +143,14 @@
       <option name="presentableId" value="Default" />
       <updated>1600676209556</updated>
     </task>
+    <task id="LOCAL-00001" summary="add: 删除.idea">
+      <created>1616480919171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616480919171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,28 +200,87 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add: 删除.idea" />
+    <MESSAGE value="add: func" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: func" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1995" height="216" key="GridCell.Tab.0.bottom" timestamp="1616478849476">
+    <state x="677" y="103" key="#go_build_github.com/bmbbms/gowall/function" timestamp="1616557445542">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1995" height="216" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1616478849476" />
-    <state width="1995" height="216" key="GridCell.Tab.0.center" timestamp="1616478849476">
+    <state x="677" y="103" key="#go_build_github.com/bmbbms/gowall/function/0.0.2048.1112@0.0.2048.1112" timestamp="1616557445542" />
+    <state x="677" y="103" key="#go_build_github.com/bmbbms/gowall/function_(1)" timestamp="1616557467001">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1995" height="216" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1616478849476" />
-    <state width="1995" height="216" key="GridCell.Tab.0.left" timestamp="1616478849476">
+    <state x="677" y="103" key="#go_build_github.com/bmbbms/gowall/function_(1)/0.0.2048.1112@0.0.2048.1112" timestamp="1616557467001" />
+    <state x="677" y="103" key="#go_build_github.com/bmbbms/gowall/function_(2)" timestamp="1616571017299">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1995" height="216" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1616478849476" />
-    <state width="1995" height="216" key="GridCell.Tab.0.right" timestamp="1616478849476">
+    <state x="677" y="103" key="#go_build_github.com/bmbbms/gowall/function_(2)/0.0.2048.1112@0.0.2048.1112" timestamp="1616571017299" />
+    <state width="1995" height="216" key="GridCell.Tab.0.bottom" timestamp="1616580917476">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1995" height="216" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1616478849476" />
+    <state width="1995" height="216" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1616580917476" />
+    <state width="1995" height="216" key="GridCell.Tab.0.center" timestamp="1616580917476">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="216" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1616580917476" />
+    <state width="1995" height="216" key="GridCell.Tab.0.left" timestamp="1616580917476">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="216" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1616580917476" />
+    <state width="1995" height="216" key="GridCell.Tab.0.right" timestamp="1616580917476">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="216" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1616580917476" />
+    <state width="1995" height="361" key="GridCell.Tab.1.bottom" timestamp="1616576968244">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="361" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1616576968244" />
+    <state width="1995" height="361" key="GridCell.Tab.1.center" timestamp="1616576968244">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="361" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1616576968244" />
+    <state width="1995" height="361" key="GridCell.Tab.1.left" timestamp="1616576968244">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="361" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1616576968244" />
+    <state width="1995" height="361" key="GridCell.Tab.1.right" timestamp="1616576968244">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1995" height="361" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1616576968244" />
+    <state x="517" y="225" key="Vcs.Push.Dialog.v2" timestamp="1616480946600">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="517" y="225" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1616480946600" />
+    <state x="789" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616578474224">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="789" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1616578474224" />
+    <state x="603" y="77" key="search.everywhere.popup" timestamp="1616482153563">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="603" y="77" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1616482153563" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/stringusage/stringusage.go</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="fibs" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
